@@ -8,7 +8,8 @@ class Test {
 		sb.append("Ajay");
 		sb.reverse();
 		System.out.println(sb);
-	}
+		}
+	
 
 	void stringRev2() {
 		String str = "Samar";
@@ -31,6 +32,7 @@ class Test {
 		i = i + j;
 		j = i - j;
 		i = i - j;
+		i = i*j;
 		System.out.println(i + "" + j);
 	}
 
